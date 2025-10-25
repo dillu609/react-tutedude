@@ -1,13 +1,11 @@
-import "./App.css";
-import ClassCount from "./components/ClassCount";
-import FunctionCount from "./components/FunctionCount";
+import Counter from "./components/counter/Counter";
+import Todos from "./components/todo/Todos";
 
 function App() {
   return (
     <>
-      <h3>Assignment-2 Counter Application</h3>
-      <FunctionCount />
-      <ClassCount />
+      {/* <Counter /> */}
+      <Todos />
     </>
   );
 }

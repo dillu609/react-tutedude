@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 class ClassCount extends Component {
   constructor(props) {
     super(props);
@@ -19,20 +18,20 @@ class ClassCount extends Component {
     }
     return (
       <div
-        style={{
-          float: "left",
-          marginLeft: "30px",
-          paddingLeft: "10px",
-          borderLeft: "2px solid",
-          width: "400px",
-        }}
+      // style={{
+      //   float: "left",
+      //   marginLeft: "30px",
+      //   paddingLeft: "10px",
+      //   borderLeft: "2px solid",
+      //   width: "400px",
+      // }}
       >
         <h3>React Class increment</h3>
-        <button onClick={decrement}>-</button>
-        <span style={{ margin: "20px", padding: "20px", fontSize: "30px" }}>
-          {this.state.count}
-        </span>
-        <button onClick={increment}>+</button>
+        <div>
+          <button onClick={decrement}>-</button>
+          <span>{this.state.count}</span>
+          <button onClick={increment}>+</button>
+        </div>
       </div>
     );
   }
