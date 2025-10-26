@@ -4,8 +4,8 @@ import FunctionCount from "./FunctionCount";
 
 const Counter = () => {
   return (
-    <div className={Style.container}>
-      <h3 className={Style.heading}>Assignment-2 Counter Application</h3>
+    <div className={`${Style.container}  h-screen bg-green-300`}>
+      <h3 className={Style.heading}>Assignment-1 Counters Application</h3>
       <div className={Style.counters}>
         <FunctionCount />
         <ClassCount />

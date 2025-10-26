@@ -4,7 +4,7 @@ import Todos from "./components/todo/Todos";
 function App() {
   return (
     <>
-      {/* <Counter /> */}
+      <Counter />
       <Todos />
     </>
   );
