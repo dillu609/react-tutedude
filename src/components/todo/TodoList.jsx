@@ -32,6 +32,7 @@ const TodoList = ({ todos }) => {
                 <div className="p-3 bg-dark border-blue-500 border-2 text-white">
                   <input
                     type="checkbox"
+                    id={`todo-${index}`}
                     checked={!!completed[index]}
                     onChange={() => toggleCompleted(index)}
                     aria-label={`Toggle todo ${index}`}
@@ -41,7 +42,7 @@ const TodoList = ({ todos }) => {
                       completed[index] ? `${styles.completed} ms-2` : "ms-2"
                     }
                   >
-                    {todo}
+                    <label htmlFor={`todo-${index}`}>{todo}</label>
                   </span>
                 </div>
               </div>
