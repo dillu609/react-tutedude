@@ -8,3 +8,15 @@
   text-decoration: line-through;
   opacity: 0.75;
 }
+
+.toast {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  background: #16a34a; /* green-600 */
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+}
